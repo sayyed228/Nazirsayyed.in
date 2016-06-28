@@ -55,8 +55,13 @@ else
     singleItem: true,
 	pagination: false,
     rewindSpeed: 500,
-	autoPlay : true,
+	autoPlay : false,
+
     stopOnHover : true
+	
+	
+    
+  
   });
   
     /******** current date funcation *************/
@@ -69,7 +74,7 @@ else
  
 	  $(function(){
       $("#animatedtext1").typed({
-        strings: ["First sentence.", "Second sentence."],
+        strings: ["Stockholders Interview, Research", "Analysis, wireframing", "Design, Prototype", "Testing, Deployment"],
         typeSpeed: 0,
 		loop: true,
 		showCursor:false,
