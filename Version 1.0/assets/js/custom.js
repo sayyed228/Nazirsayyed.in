@@ -55,8 +55,13 @@ else
     singleItem: true,
 	pagination: false,
     rewindSpeed: 500,
-	autoPlay : true,
-    stopOnHover : true
+	//autoPlay : true,
+    autoPlay : 10000,
+    stopOnHover : false
+	
+	
+    
+  
   });
   
     /******** current date funcation *************/
@@ -69,30 +74,30 @@ else
  
 	  $(function(){
       $("#animatedtext1").typed({
-        strings: ["First sentence.", "Second sentence."],
-        typeSpeed: 0,
+        strings: ["Stockholders Interview, Research", "Analysis, wireframing", "Design, Prototype", "Testing, Deployment"],
+        typeSpeed: 10,
 		loop: true,
 		showCursor:false,
 		contentType: 'html',
-		backDelay: 1000
+		backDelay: 2000
 	  });
-	  
+	 
 	  $("#animatedtext2").typed({
-        strings: ["First sentence.", "Second sentence."],
-        typeSpeed: 0,
+        strings: ["Visual Design, Android App Design", "IOS App Design, Web App Design", "Personalization, Color", "Layout Design, Typography"],
+        typeSpeed: 10,
 		loop: true,
 		showCursor:false,
 		contentType: 'html',
-		backDelay: 1000
+		backDelay: 2000
 	  });
 	  
 	  $("#animatedtext3").typed({
-        strings: ["First sentence.", "Second sentence."],
-        typeSpeed: 0,
+        strings:["HTML, CSS", "Javascript, jQuery", "Angularjs, Bootstrap", "SASS, LESS", "Responsive Web Design"],
+        typeSpeed: 10,
 		loop: true,
 		showCursor:false,
 		contentType: 'html',
-		backDelay: 1000
+		backDelay: 2000
 	  });
   
   });

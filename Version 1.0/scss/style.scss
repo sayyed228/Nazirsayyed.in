@@ -140,7 +140,7 @@
 		.sub-menu{
 			opacity: 1;
 			height: 640px;
-			width: 360px;
+			width: 380px;
 			margin-top: 20px;
 		}
 		span:nth-child(2){
@@ -155,7 +155,7 @@
 		}
 		span:nth-child(2){
 			height: 640px;
-			width: 360px;
+			width: 380px;
 			right: -160px;
 			top: -160px;
 			border-radius: 50%;
@@ -246,17 +246,17 @@
 	
 	div.owl--text {
 	position: absolute;
-	bottom: 50%;
+	top: 50%;
 	left: 50%;
 	width: 600px;
-	height: 8em;
+	height: 74px;
 		padding: 1em;
-	background: rgba(255,255,255,.5);
+	background: rgba(255,255,255,.6);
 		border-radius: 4px;
 		margin-left:-300px;
-		margin-top:300px;
+		margin-top:-50px;
 	
-		.element { font-size:60px;}
+		.element { font-size:36px;}
 		
 }
 
@@ -305,6 +305,23 @@ body, html {
 	
 	
 }
+
+/***** Contact info ******/
+
+.contact-left-wrap{
+ label { font-size:16px;}
+}
+.contact-right-wrap{margin-top:30px;
+ p { font-size:16px; margin-bottom:20px}
+}
+
+.social-media-icons {
+	 div {border:#ccc solid 1px; float:left; width:48px; height:48px;padding:10px; border-radius:5px;
+	 .fa {font-size:30px;}
+	 
+	 }
+	 .facebook { background:#3d5b99;color:#fff; padding-left:15px;}
+	}
 
 /*--------------------*/
      /* PORTFOLIO */
@@ -514,7 +531,7 @@ body, html {
  .progress {border-radius: 0px;height: 24px;}
  .progress-bar {background-color: #f39c11; line-height: 24px;font-size:14px;}
  
- 
+ .form-control { border-radius:0;}
  
  #Process { 
   background:url(../../images/sea-bg.png) no-repeat center center fixed; 
