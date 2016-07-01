@@ -13,6 +13,7 @@
 .font-normal { font-weight:normal;}
 
 .img-fluid { width:100%; height:auto;}
+.logo { font-size:24px;}
 /*body { background:#333;}*/
 
 
@@ -54,7 +55,7 @@
 .open{
 	position: fixed;
 	top: 6px;
-	right: 40px;
+	right: 20px;
 	width: 50px;
 	height: 50px;
 	display: block;
@@ -488,68 +489,6 @@ body, html {
 
 /********* Slideshow *****************/
 
-/*--------------------*/
-/* RESUME */
-/*--------------------*/
-
-.pro-bar-container.color-wisteria {
-  background-color: #eee;
-}
-
-#skill{
-  background-color: #fff;  
-  display: inline;
-  padding: 60px 0;
-  float: left;
-  width: 100%;
-}
-
-
-.skill-inner{
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-
-.skill-inner p{
-  color: #727272;
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 400;
-} 
-
-
-
-
-
-.skill-progress-bar{
-  display: inline;  
-  float: left;  
-  width: 100%;  
-}
-
-
-.skill-progress-bar span {
-  color: #727272;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-}
-
-
-.pro-bar-container {
-  border-radius: 0;
-  height: 30px;  
-}
-
-
-.pro-bar {
-  border-radius: 0px;
-  height: 30px; 
-}
 
 
 /********* Timeline **************/
@@ -567,15 +506,24 @@ body, html {
  
  .introduction { margin-top:80px;
   h1{margin-top:0px}
- .header-wrap{width:320px;margin:0 auto; }
+ /*.header-wrap{width:320px;margin:0 auto; }*/
 }
+
+
+.t1 { width:320px; margin:0 auto;}
+.t2 { width:484px; margin:0 auto;}
+.t3 { width:304px; margin:0 auto;}
+.t4 { width:164px; margin:0 auto;}
+.t5 { width:306px; margin:0 auto;}
+.t6 { width:416px; margin:0 auto;}
+.t7 { width:358px; margin:0 auto;}
 
  .common-title {padding-top:40px;margin-bottom:40px;padding-bottom:20px;}
 
  .ux-design , .ui-design, .ui-develop, {margin-top:60px;margin-bottom:60px;
  h1{margin-top:0px}
- .header-wrap{width:320px;margin:0 auto;}
- .header-wrap-developer , .header-wrap-marketing{width:420px;margin:0 auto;}
+ /*.header-wrap{width:320px;margin:0 auto;}
+ .header-wrap-developer , .header-wrap-marketing{width:420px;margin:0 auto;}*/
 }
 
 .box { margin-top:20px; padding-bottom:15px;}
@@ -612,3 +560,51 @@ body, html {
 		.row {margin-right:15px;margin-left:15px;}
 		}
  
+ /***************************************/
+ /*------------ Media query ------------*/ 
+ /***************************************/
+ 
+ @media(max-width:1199px ){
+	
+}
+
+
+@media(max-width:991px ){
+	
+}
+
+
+@media(max-width:767px ){
+
+
+}
+
+@media(max-width:480px ){
+	.h3, h3 {
+    font-size: 20px;
+}
+.logo { font-size:18px; margin-top:10px;}
+div.owl--text {position: absolute !important;top: 50% !important;left: 0% !important;width: 100% !important;height: 50px !important;
+	padding: 1em !important;background: rgba(255,255,255,.6);border-radius: 4px !important;margin-left:0 !important;
+		.element { font-size:18px !important;}
+  }
+  
+   .ux-design , .ui-design, .ui-develop, {margin-top:60px;margin-bottom:60px;
+  h1{margin-top:8px; font-size:22px;}
+ .header-wrap{width:320px; margin:0 auto;}
+ .header-wrap-developer , .header-wrap-marketing{width:320px; margin:0 auto;}
+}
+
+.right-divider {width:20px;margin-left:10px;}
+.left-divider {width:20px;margin-right:10px;}
+.t1 { width:174px !important; margin:0 auto;}
+.t2 { width:273px !important; margin:0 auto;}
+.t3 { width:162px !important; margin:0 auto;}
+.t4 { width:164px !important; margin:0 auto;}
+.t5 { width:164px !important; margin:0 auto;}
+.t6 { width:232px !important; margin:0 auto;}
+.t7 { width:194px !important; margin:0 auto;}
+.box {border-bottom:#ccc solid 1px;}
+.border-left {border-left:#ccc solid 0px;}
+}
+

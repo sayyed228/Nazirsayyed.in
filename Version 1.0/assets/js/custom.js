@@ -55,8 +55,8 @@ else
     singleItem: true,
 	pagination: false,
     rewindSpeed: 500,
-	//autoPlay : true,
-    autoPlay : 10000,
+	autoPlay : false,
+    //autoPlay : 10000,
     stopOnHover : false
 	
 	
