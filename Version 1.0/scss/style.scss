@@ -488,6 +488,68 @@ body, html {
 
 /********* Slideshow *****************/
 
+/*--------------------*/
+/* RESUME */
+/*--------------------*/
+
+.pro-bar-container.color-wisteria {
+  background-color: #eee;
+}
+
+#skill{
+  background-color: #fff;  
+  display: inline;
+  padding: 60px 0;
+  float: left;
+  width: 100%;
+}
+
+
+.skill-inner{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+
+.skill-inner p{
+  color: #727272;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+} 
+
+
+
+
+
+.skill-progress-bar{
+  display: inline;  
+  float: left;  
+  width: 100%;  
+}
+
+
+.skill-progress-bar span {
+  color: #727272;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+
+.pro-bar-container {
+  border-radius: 0;
+  height: 30px;  
+}
+
+
+.pro-bar {
+  border-radius: 0px;
+  height: 30px; 
+}
 
 
 /********* Timeline **************/
